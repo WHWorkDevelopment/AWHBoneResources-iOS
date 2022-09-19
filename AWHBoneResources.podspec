@@ -72,7 +72,7 @@ Pod::Spec.new do |s|
   s.author             = { "王恒" => "1066026709@qq.com" }
   # Or just: s.author    = "王恒"
   # s.authors            = { "王恒" => "1066026709@qq.com" }
-  # s.social_media_url   = "https://twitter.com/王恒"
+  s.social_media_url   = "https://github.com/WHWorkDevelopment/AWHBoneResources-iOS.git"
 
   # ――― Platform sifics 平台sifics――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -115,10 +115,10 @@ Pod::Spec.new do |s|
   #  不包括公共头文件将使所有头文件公开。
   #
 
-  #s.source_files  = "AWHBoneResources/**/*.{h,m,swift}"
+#  s.source_files  = "AWHBoneResources/**/*.{h,m,swift}"
 #  # s.exclude_files = "Classes/Exclude"   #排除文件
 #
-  #s.public_header_files = "AWHBoneResources/**/*.h"
+#  s.public_header_files = "AWHBoneResources/**/*.h"
 
   s.vendored_frameworks = ['AWHBoneResources.framework']
   s.source_files = 'AWHBoneResources.framework/Headers/*h'
@@ -138,7 +138,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  #s.resources = ['Resources/AWHBoneResources.bundle']
+#  s.resources = ['Resources/AWHBoneResources.bundle']
    s.resource_bundles = {
      'AWHBoneResources' => ['AWHBoneResources.framework/AWHBoneResources.bundle']
    }
